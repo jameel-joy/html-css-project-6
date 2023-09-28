@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    height: 30px;
+    width: 60px;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #a9a9a9;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+hr{
+    color: white;
+    border: 2px solid white; 
+    padding-left: 50px;
+    width: 80vw;
+}
+.mid{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+button{
+    font-size: larger;
+    padding: 10px;
+    border: 0px;
+    background-color: #6663e9;;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* designing the wrapper section of the cards */
+.cards-wrapper-section h1 {
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0.01em;
+  }
+  
+  .cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    position: relative;
+  }
+  
+  /* designing the card image */
+  .card {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* giving different margin top value to position cards */
+  .cards-wrapper div:nth-child(2) {
+    margin-top: 50px;
+  }
+  .cards-wrapper div:nth-child(3) {
+    margin-top: 100px;
+  }
+  .cards-wrapper div:nth-child(4) {
+    margin-top: 160px;
+  }
+  .cards-wrapper div:nth-child(5) {
+    margin-top: 100px;
+  }
+  .cards-wrapper div:nth-child(6) {
+    margin-top: 40px;
+  }
+  .cards-wrapper div:nth-child(7) {
+    margin-top: 40px;
+  }
+  .cards-wrapper div:nth-child(8) {
+    margin-top: 100px;
+  }
+  .cards-wrapper div:nth-child(9) {
+    margin-top: 160px;
+  }
+  
+  .card img {
+    width: 366px;
+    height: 400px;
+    border-radius: 20px;
+  }
+  
+  /* designing the card box of card */
+  .card-box {
+    width: 326px;
+    height: 121px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.2);
+    position: absolute;
+    bottom: -60px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-box button {
+    font-weight: 800;
+    font-size: 15px;
+    width: 114px;
+    height: 52px;
+  }
+  
+  .card-box div h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-box div p {
+    font-weight: 800;
+    font-size: 20px;
+    color: #6663e8;
+    text-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+  }
+  

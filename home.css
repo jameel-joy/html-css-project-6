@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f6f8fa;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://thechampionrealestate.ae/wp-content/uploads/2021/04/photo-1599809275671-b5942cabc7a2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    position: relative;
+}
+img{
+    height: 30px;
+    width: 60px;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+a{
+    text-decoration: none;
+    color: #f3f2f0;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+hr{
+    color: white;
+    border: 2px solid white; 
+    padding-left: 50px;
+    width: 80vw;
+}
+.mid{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+button{
+    font-size: larger;
+    padding: 10px;
+    border: 0px;
+    background-color: #6663e9;;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and(max-width: 526px){
+    nav{
+        display: block;
+    }
+}
+

@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    background-color: black;
+}
+.header{
+    display: flex;
+    column-gap: 300px;
+    justify-content: center;
+    margin: 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+ul li a{
+    color:white;
+    list-style: none;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.right-section{
+    padding-top: 200px;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    padding: 30px;
+}
+section{
+    text-align: center;
+    padding-top: 50px;
+}
+.logo{
+    padding-bottom: 40px;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    color: white;
+    padding-top: 50px;
+}
+.section3{
+    background-color: rgb(11, 9, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    color: white;
+    padding-top: 50px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(54, 10, 230);
+    color: rgb(240, 248, 255);
+}
